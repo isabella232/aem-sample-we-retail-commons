@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="35c72778-9dbe-41c0-a596-a46b9bf1dfc7">
+    <jcr:content
+        cq:name="bg-teaser-3.jpg"
+        cq:parentPath="/content/dam/we-retail/images"
+        dam:assetID="aaid:083ad11f884a4106986182c34660f576"
+        dam:lastInvalidateCache="{Date}2016-01-16T23:31:11.308-05:00"
+        dam:relativePath="we-retail/images/bg-teaser-3.jpg"
+        dam:s7damAnchorX="{Long}192"
+        dam:s7damAnchorY="{Long}110"
+        dam:s7damHeight="{Long}220"
+        dam:s7damType="Image"
+        dam:s7damWidth="{Long}384"
+        jcr:lastModified="{Date}2016-03-09T15:15:50.929+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-01-11T14:03:07.565-08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}3.055555582046509"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}5.333333492279053"
+            dam:Progressive="no"
+            dam:sha1="58fff783b449ea2c4d9961e19cb1131194b99a12"
+            dam:size="{Long}28632"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-01-07T16:46:52.838-08:00"
+            jcr:lastModified="{Date}2016-03-09T15:15:50.507+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}220"
+            tiff:ImageWidth="{Long}384"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

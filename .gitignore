@@ -23,8 +23,9 @@ maven-eclipse.xml
 .DS_Store
 *.jar
 
+cqdam.*
 cq5dam.*
-comments/
+folderThumbnail
 
 ui.apps/src/main/content/jcr_root/apps/.content.xml
 ui.apps/src/main/content/jcr_root/etc/.content.xml
