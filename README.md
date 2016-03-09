@@ -1,6 +1,6 @@
-# We.Retail Products
+# We.Retail Commons
 
-This is a package with We.Retail product data and assets.
+This is the We.Retail Commons project.
 
 ## Modules
 
