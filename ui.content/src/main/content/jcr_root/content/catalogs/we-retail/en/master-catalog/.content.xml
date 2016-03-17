@@ -14,11 +14,20 @@
             coverImage="/content/dam/we-retail/products/Product_catalog.jpg"/>
         <templates
             jcr:primaryType="nt:unstructured"
+            catalog="/content/catalogs/we-retail/en/template-pages/catalog-page-template"
+            product="/content/catalogs/we-retail/en/template-pages/product-page-template"
+            section="/content/catalogs/we-retail/en/template-pages/section-page-template"
             proxyProductPages="false"/>
         <filter
             jcr:primaryType="nt:unstructured"
             basePath="/etc/commerce/products/we-retail"
             searchType="simple"/>
+        <cq:CatalogSyncConfig jcr:primaryType="cq:CatalogSyncConfig">
+            <catalog
+                cq:catalogPath="/content/we-retail/language-masters/en/products"
+                cq:rolloutConfigs="[/etc/msm/rolloutconfigs/catalogpagecontent,/etc/msm/rolloutconfigs/catalogrollouthooks]"
+                jcr:primaryType="nt:unstructured"/>
+        </cq:CatalogSyncConfig>
     </jcr:content>
     <women/>
     <men/>
