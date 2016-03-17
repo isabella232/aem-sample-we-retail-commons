@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="25b8abf1-2a31-47aa-9d9f-46c656cad2f3">
+    <jcr:content
+        dam:proxyUrl="/_renditions_/a0d/a0d5dc65-131a-4b20-b1ca-30b22201464a/"
+        dam:relativePath="we-retail/videos/snowboard.m4v"
+        dam:s7damType="VideoAVS"
+        jcr:lastModified="{Date}2016-03-17T16:11:57.860+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <metadata
+            dc:extent="{Long}22060"
+            dc:format="video/x-m4v"
+            dc:modified="{Date}2016-03-15T17:52:02.782+01:00"
+            jcr:lastModified="{Date}2016-03-17T16:11:57.860+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}720"
+            tiff:ImageWidth="{Long}1280"
+            areAllMembersProducts="{Boolean}true"
+            bitrate="9104"
+            duration="22.6"
+            frameRate="25"
+            shoppablevideo="\[{&quot;t0&quot;:0,&quot;t1&quot;:6325,&quot;products&quot;:[{&quot;asset&quot;:&quot;/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg&quot;,&quot;label&quot;:&quot;Flying Snowboard&quot;,&quot;href&quot;:&quot;quickview:sku=eqwrsnbd&quot;,&quot;target&quot;:&quot;&quot;,&quot;vars&quot;:[{&quot;id&quot;:&quot;reservedVal_productPath&quot;,&quot;val&quot;:&quot;/etc/commerce/products/we-retail/eq/winter-sports/eqwrsnbd&quot;},{&quot;id&quot;:&quot;reservedVal_productThumbnail&quot;,&quot;val&quot;:&quot;http://localhost:4502/etc/commerce/products/we-retail/eq/winter-sports/eqwrsnbd/image.thumbnail.319.png/1458226631811.png&quot;}],&quot;name&quot;:&quot;eqwrsnbd&quot;}]},{&quot;t0&quot;:6375,&quot;t1&quot;:11425,&quot;products&quot;:[{&quot;asset&quot;:&quot;/content/dam/we-retail/products/apparel/gloves/Classic Leather.jpg&quot;,&quot;label&quot;:&quot;Classic Leather Gloves&quot;,&quot;href&quot;:&quot;quickview:sku=meotwicls&quot;,&quot;target&quot;:&quot;&quot;,&quot;vars&quot;:[{&quot;id&quot;:&quot;reservedVal_productPath&quot;,&quot;val&quot;:&quot;/etc/commerce/products/we-retail/me/gloves/meotwicls&quot;},{&quot;id&quot;:&quot;reservedVal_productThumbnail&quot;,&quot;val&quot;:&quot;http://localhost:4502/etc/commerce/products/we-retail/me/gloves/meotwicls/image.thumbnail.319.png/1458226730462.png&quot;}],&quot;name&quot;:&quot;meotwicls&quot;},{&quot;asset&quot;:&quot;/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg&quot;,&quot;label&quot;:&quot;Midweight Fleece Gloves&quot;,&quot;href&quot;:&quot;quickview:sku=meskwimis&quot;,&quot;target&quot;:&quot;&quot;,&quot;vars&quot;:[{&quot;id&quot;:&quot;reservedVal_productPath&quot;,&quot;val&quot;:&quot;/etc/commerce/products/we-retail/me/gloves/meskwimis&quot;},{&quot;id&quot;:&quot;reservedVal_productThumbnail&quot;,&quot;val&quot;:&quot;http://localhost:4502/etc/commerce/products/we-retail/me/gloves/meskwimis/image.thumbnail.319.png/1458226649903.png&quot;}],&quot;name&quot;:&quot;meskwimis&quot;}]},{&quot;t0&quot;:11475,&quot;t1&quot;:16850,&quot;products&quot;:[]},{&quot;t0&quot;:16925,&quot;t1&quot;:22975,&quot;products&quot;:[]}]"
+            shoppablevideo_viewerpreset="/etc/dam/presets/viewer/Shoppable_Video_Dark"
+            size="1280x720"
+            videoBitrate="9102"
+            videoCodec="h264 (High)"
+            videoDuration="22.6"/>
+        <related jcr:primaryType="nt:unstructured">
+            <vtt
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sling/collection">
+                <sling:members
+                    jcr:primaryType="nt:unstructured"
+                    sling:resources="[/content/dam/_VTT/we-retail/videos/snowboard.m4v.svideo.vtt]">
+                    <snowboard.m4v.svideo.vtt
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/_VTT/we-retail/videos/snowboard.m4v.svideo.vtt"/>
+                </sling:members>
+            </vtt>
+            <s7swatches
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sling/collection">
+                <sling:members
+                    jcr:primaryType="nt:unstructured"
+                    sling:resources="[/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg,/content/dam/we-retail/products/apparel/gloves/Classic Leather.jpg,/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg]">
+                    <Snowboard.jpg
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg"/>
+                    <Classic_x0020_Leather.jpg
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/we-retail/products/apparel/gloves/Classic Leather.jpg"/>
+                    <Midweight_x0020_Fleece.jpg
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg"/>
+                    <Whistler.jpg
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/geometrixx-outdoors/products/equipment/Whistler.jpg"/>
+                </sling:members>
+            </s7swatches>
+        </related>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2016-03-15T18:06:05.185+01:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
