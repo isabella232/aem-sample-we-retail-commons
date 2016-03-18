@@ -7,16 +7,15 @@
         dam:proxyUrl="/_renditions_/a0d/a0d5dc65-131a-4b20-b1ca-30b22201464a/"
         dam:relativePath="we-retail/videos/snowboard.m4v"
         dam:s7damType="VideoAVS"
-        jcr:lastModified="{Date}2016-03-17T16:11:57.860+01:00"
+        jcr:lastModified="{Date}2016-03-19T00:33:11.676+01:00"
         jcr:lastModifiedBy="admin"
-        jcr:mixinTypes="[]"
         jcr:primaryType="dam:AssetContent"
         status="Finished">
         <metadata
             dc:extent="{Long}22060"
             dc:format="video/x-m4v"
             dc:modified="{Date}2016-03-15T17:52:02.782+01:00"
-            jcr:lastModified="{Date}2016-03-17T16:11:57.860+01:00"
+            jcr:lastModified="{Date}2016-03-19T00:33:11.675+01:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -50,6 +49,9 @@
                 <sling:members
                     jcr:primaryType="nt:unstructured"
                     sling:resources="[/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg,/content/dam/we-retail/products/apparel/gloves/Classic Leather.jpg,/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg]">
+                    <Whistler.jpg
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/geometrixx-outdoors/products/equipment/Whistler.jpg"/>
                     <Snowboard.jpg
                         jcr:primaryType="nt:unstructured"
                         sling:resource="/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg"/>
@@ -59,9 +61,6 @@
                     <Midweight_x0020_Fleece.jpg
                         jcr:primaryType="nt:unstructured"
                         sling:resource="/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg"/>
-                    <Whistler.jpg
-                        jcr:primaryType="nt:unstructured"
-                        sling:resource="/content/dam/geometrixx-outdoors/products/equipment/Whistler.jpg"/>
                 </sling:members>
             </s7swatches>
         </related>
