@@ -2,7 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/etc/tags/we-retail"/>
     <filter root="/etc/scaffolding/we-retail"/>
-    <filter root="/etc/commerce/products/we-retail" mode="merge"/>
+    <filter root="/etc/commerce/products/we-retail"/>
     <filter root="/content/dam/we-retail">
         <include pattern="/content/dam/we-retail/activities" />
         <include pattern="/content/dam/we-retail/experiences" />
@@ -12,5 +12,6 @@
         <include pattern="/content/dam/we-retail/videos" />
         <include pattern="/content/dam/we-retail/workflow" />
     </filter>
-    <filter root="/content/catalogs/we-retail" mode="merge"/>
+    <filter root="/content/catalogs/we-retail/master-catalog"/>
+    <filter root="/content/we-retail/language-masters/en/products"/>
 </workspaceFilter>
