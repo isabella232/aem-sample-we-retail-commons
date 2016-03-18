@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        dam:s7damType="MixedMediaSet"
+        jcr:lastModified="{Date}2016-03-18T16:52:11.556+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/etc/commerce/products/we-retail/eq/water-sports/eqswsucal"
+            dam:productID="eqswsucal"
+            dc:description=""
+            dc:format="Multipart/Related; type=application/x-MixedMediaSet"
+            dc:modified="{Date}2016-03-18T16:50:58.565+01:00"
+            dc:title="cabana_mixed"
+            jcr:lastModified="{Date}2016-03-18T16:52:11.556+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            manualThumbnail=""/>
+        <related jcr:primaryType="nt:unstructured">
+            <s7Set
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sling/collection">
+                <sling:members
+                    jcr:primaryType="nt:unstructured"
+                    sling:resources="[/content/dam/we-retail/products/activities/water-sports/cabana,/content/dam/we-retail/videos/surfing.mov]">
+                    <cabana
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/we-retail/products/activities/water-sports/cabana"/>
+                    <surfing.mov
+                        jcr:primaryType="nt:unstructured"
+                        sling:resource="/content/dam/we-retail/videos/surfing.mov"/>
+                </sling:members>
+            </s7Set>
+        </related>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[unknown,aem]">
+            <unknown
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-03-18T16:52:07.040+01:00"/>
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2016-03-18T16:55:35.164+01:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
