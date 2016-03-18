@@ -12,6 +12,6 @@
         <include pattern="/content/dam/we-retail/videos" />
         <include pattern="/content/dam/we-retail/workflow" />
     </filter>
-    <filter root="/content/catalogs/we-retail/master-catalog"/>
+    <filter root="/content/catalogs/we-retail/en/master-catalog"/>
     <filter root="/content/we-retail/language-masters/en/products"/>
 </workspaceFilter>
