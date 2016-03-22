@@ -1,0 +1,38 @@
+WEBVTT
+
+ 00:00.000 --> 22:6.000 
+{
+"properties": { 
+"title": "snowboard.m4v"
+}
+}
+
+00:00.000 --> 00:06.325
+{"swatches": {"item": [{"s": {
+    "n": "/content/dam/we-retail/products/activities/winter-sports/Snowboard.jpg",
+    "l": "Flying Snowboard",
+    "href": "quickview:sku=eqwrsnbd&reservedVal_productPath=/etc/commerce/products/we-retail/eq/winter-sports/eqwrsnbd&reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/eq/winter-sports/eqwrsnbd/image.thumbnail.319.png/1458226631811.png",
+    "target": ""
+    }}]}}
+
+00:06.375 --> 00:11.425
+{"swatches": {"item": [
+    {"s": {
+    "n": "/content/dam/we-retail/products/apparel/gloves/Classic Leather.jpg",
+    "l": "Classic Leather Gloves",
+    "href": "quickview:sku=meotwicls&reservedVal_productPath=/etc/commerce/products/we-retail/me/gloves/meotwicls&reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/me/gloves/meotwicls/image.thumbnail.319.png/1458226730462.png",
+    "target": ""
+    }},
+    {"s": {
+    "n": "/content/dam/we-retail/products/apparel/gloves/Midweight Fleece.jpg",
+    "l": "Midweight Fleece Gloves",
+    "href": "quickview:sku=meskwimis&reservedVal_productPath=/etc/commerce/products/we-retail/me/gloves/meskwimis&reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/me/gloves/meskwimis/image.thumbnail.319.png/1458226649903.png",
+    "target": ""
+    }}
+]}}
+
+00:11.475 --> 00:16.850
+{"swatches": {"item": []}}
+
+00:16.925 --> 00:22.975
+{"swatches": {"item": []}}

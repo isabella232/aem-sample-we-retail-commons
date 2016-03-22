@@ -11,6 +11,7 @@
         <include pattern="/content/dam/we-retail/products" />
         <include pattern="/content/dam/we-retail/videos" />
         <include pattern="/content/dam/we-retail/workflow" />
+        <include pattern="/content/dam/_VTT/we-retail/videos" />
     </filter>
     <filter root="/content/catalogs/we-retail/en/master-catalog"/>
     <filter root="/content/we-retail/language-masters/en/products"/>
