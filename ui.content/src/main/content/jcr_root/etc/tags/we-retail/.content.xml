@@ -3,7 +3,7 @@
     jcr:description=""
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Tag"
-    jcr:title="we.retail"
+    jcr:title="We.Retail"
     sling:resourceType="cq/tagging/components/tag">
     <activity/>
     <apparel/>

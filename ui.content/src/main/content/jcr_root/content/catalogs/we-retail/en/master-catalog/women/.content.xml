@@ -5,7 +5,8 @@
         cq:template="/libs/commerce/templates/section"
         jcr:primaryType="cq:PageContent"
         jcr:title="Women's"
-        sling:resourceType="commerce/components/section">
+        sling:resourceType="commerce/components/section"
+        coverUrl="/content/dam/we-retail/people/womens/women_6.jpg">
         <templates
             jcr:primaryType="nt:unstructured"
             proxyProductPages="false"/>
