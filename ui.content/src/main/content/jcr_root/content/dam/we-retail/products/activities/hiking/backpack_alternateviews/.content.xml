@@ -10,7 +10,7 @@
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:25.185-05:00"
         dam:relativePath="we-retail/products/activities/hiking/backpack_alternateviews"
         dam:s7damType="ImageSet"
-        jcr:lastModified="{Date}2016-03-09T15:17:13.639+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:35.259+02:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -19,7 +19,7 @@
             dc:format="Multipart/Related; type=application/x-ImageSet"
             dc:modified="{Date}2014-05-15T16:11:31.728-07:00"
             dc:title="Backpack Alternate Views"
-            jcr:lastModified="{Date}2016-03-09T15:17:13.635+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:35.258+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

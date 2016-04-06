@@ -15,7 +15,7 @@
         dam:s7damHeight="{Long}1700"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}2407"
-        jcr:lastModified="{Date}2016-03-09T15:16:17.515+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:51:09.289+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -36,7 +36,7 @@
             dam:size="{Long}2091019"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-13T21:25:51.848-08:00"
-            jcr:lastModified="{Date}2016-03-09T15:16:03.167+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:51:09.079+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

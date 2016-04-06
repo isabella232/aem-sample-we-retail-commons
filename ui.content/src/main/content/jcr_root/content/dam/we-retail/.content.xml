@@ -9,12 +9,10 @@
         jcr:title="We.Retail">
         <folderThumbnail/>
     </jcr:content>
-    <images/>
     <activities/>
     <people/>
     <products/>
     <videos/>
     <workflow/>
-    <articles/>
     <experiences/>
 </jcr:root>

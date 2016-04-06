@@ -15,7 +15,7 @@
         dam:s7damHeight="{Long}1080"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}1920"
-        jcr:lastModified="{Date}2016-03-09T15:17:16.391+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:18.356+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -36,7 +36,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}1920"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2016-03-09T15:16:57.843+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:17.999+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

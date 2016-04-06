@@ -8,7 +8,7 @@
         cq:name="enduro-trail-jump.jpg"
         cq:parentPath="/content/dam/we-retail/activities/biking"
         dam:relativePath="we-retail/activities/biking/enduro-trail-jump.jpg"
-        jcr:lastModified="{Date}2016-03-14T00:48:48.428+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:49:47.651+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +31,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2016-03-14T00:48:40.924+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:49:44.595+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

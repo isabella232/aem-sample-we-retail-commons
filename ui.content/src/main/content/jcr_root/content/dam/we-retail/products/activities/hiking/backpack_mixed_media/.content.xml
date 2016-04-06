@@ -8,7 +8,7 @@
         dam:lastInvalidateCache="{Date}2016-01-16T23:35:25.209-05:00"
         dam:relativePath="we-retail/products/activities/hiking/backpack_mixed_media"
         dam:s7damType="MixedMediaSet"
-        jcr:lastModified="{Date}2016-03-09T15:16:54.957+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:30.207+02:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -17,7 +17,7 @@
             dc:format="Multipart/Related; type=application/x-MixedMediaSet"
             dc:modified="{Date}2014-05-16T10:41:04.686-07:00"
             dc:title="Backpack Mixed Media"
-            jcr:lastModified="{Date}2016-03-09T15:16:54.957+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:30.206+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             manualThumbnail=""/>

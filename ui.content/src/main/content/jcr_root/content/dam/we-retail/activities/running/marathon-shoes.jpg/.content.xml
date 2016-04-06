@@ -8,7 +8,7 @@
         cq:name="marathon-shoes.jpg"
         cq:parentPath="/content/dam/we-retail/activities/running"
         dam:relativePath="we-retail/activities/running/marathon-shoes.jpg"
-        jcr:lastModified="{Date}2016-03-14T00:52:55.964+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:49:53.531+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +31,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2016-03-14T00:52:55.319+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:49:53.410+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

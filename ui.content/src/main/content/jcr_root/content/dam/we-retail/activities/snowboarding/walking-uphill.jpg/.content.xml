@@ -8,7 +8,7 @@
         cq:name="walking-uphill.jpg"
         cq:parentPath="/content/dam/we-retail/activities/snowboarding"
         dam:relativePath="we-retail/activities/snowboarding/walking-uphill.jpg"
-        jcr:lastModified="{Date}2016-03-14T00:52:59.764+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:08.170+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +31,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2016-03-14T00:52:59.140+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:07.962+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

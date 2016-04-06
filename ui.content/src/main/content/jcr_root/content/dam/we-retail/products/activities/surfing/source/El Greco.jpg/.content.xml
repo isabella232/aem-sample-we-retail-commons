@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
@@ -17,7 +17,7 @@
         dam:s7damHeight="{Long}1080"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}1837"
-        jcr:lastModified="{Date}2016-03-09T15:16:30.331+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:50:58.042+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -40,7 +40,7 @@
             exif:ExifOffset="{Long}236"
             exif:PixelXDimension="{Long}1837"
             exif:PixelYDimension="{Long}1080"
-            jcr:lastModified="{Date}2016-03-09T15:16:26.646+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:50:55.619+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -63,28 +63,7 @@
             xmpMM:InstanceID="xmp.iid:23208231-6783-4041-85a9-5913ec133e66"
             xmpMM:OriginalDocumentID="6A3B127DDB50CBA53F8B626706BF9905"
             writebackEnable="{Boolean}true">
-            <xmpMM:History
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}2"
-                xmpArrayType="rdf:Seq"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:0b1f7959-842e-45fb-a1b5-f6f04c801ec6"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2015-09-17T10:03:16.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-                <_x0032_
-                    jcr:primaryType="nt:unstructured"
-                    stEvt:action="saved"
-                    stEvt:changed="/"
-                    stEvt:instanceID="xmp.iid:23208231-6783-4041-85a9-5913ec133e66"
-                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
-                    stEvt:when="{Date}2015-09-17T10:03:16.000-07:00"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:History>
+            <xmpMM:History jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

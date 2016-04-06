@@ -8,7 +8,7 @@
         cq:name="forest-enduro-trail.jpg"
         cq:parentPath="/content/dam/we-retail/activities/biking"
         dam:relativePath="we-retail/activities/biking/forest-enduro-trail.jpg"
-        jcr:lastModified="{Date}2016-03-14T00:48:57.773+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:49:45.646+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +31,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2016-03-14T00:48:56.670+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:49:45.389+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -6,7 +6,7 @@
     <jcr:content
         dam:assetID="aaid:da4070fd6e24495c89ac0bed6e1cd47a"
         dam:relativePath="we-retail/videos/surfing.mov"
-        jcr:lastModified="{Date}2016-03-09T15:18:00.306+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:52:17.052+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -16,7 +16,7 @@
             dc:extent="{Long}10041"
             dc:format="video/quicktime"
             dc:modified="{Date}2016-01-14T14:24:19.683-08:00"
-            jcr:lastModified="{Date}2016-03-09T15:17:16.594+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:51:32.134+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

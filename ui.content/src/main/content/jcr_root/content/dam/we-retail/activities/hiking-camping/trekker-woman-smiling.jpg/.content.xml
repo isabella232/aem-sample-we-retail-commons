@@ -8,7 +8,7 @@
         cq:name="trekker-woman-smiling.jpg"
         cq:parentPath="/content/dam/we-retail/activities/hiking-camping"
         dam:relativePath="we-retail/activities/hiking-camping/trekker-woman-smiling.jpg"
-        jcr:lastModified="{Date}2016-03-14T00:53:15.371+01:00"
+        jcr:lastModified="{Date}2016-04-06T19:49:59.386+02:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +31,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}2880"
             exif:PixelYDimension="{Long}1920"
-            jcr:lastModified="{Date}2016-03-14T00:52:57.269+01:00"
+            jcr:lastModified="{Date}2016-04-06T19:49:54.243+02:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
