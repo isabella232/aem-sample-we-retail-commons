@@ -160,7 +160,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Soleil Tunic Yellow"
             sling:resourceType="commerce/components/product"
-            color="Soleil Yellow"
+            color="yellow"
             identifier="woswsusoc.1"
             textIsRich="[true,true]">
             <image
@@ -206,7 +206,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Soleil Tunic Red"
             sling:resourceType="commerce/components/product"
-            color="Soleil Red"
+            color="red"
             identifier="woswsusoc.2"
             textIsRich="[true,true]">
             <image

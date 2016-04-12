@@ -242,7 +242,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="El Gordo Down Jacket Green"
             sling:resourceType="commerce/components/product"
-            color="El Gordo Green"
+            color="green"
             identifier="meskwielt.1"
             textIsRich="[true,true]">
             <image
@@ -292,7 +292,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="El Gordo Down Jacket Purple"
             sling:resourceType="commerce/components/product"
-            color="El Gordo Purple"
+            color="purple"
             identifier="meskwielt.2"
             textIsRich="[true,true]">
             <image
@@ -342,7 +342,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="El Gordo Down Jacket Red"
             sling:resourceType="commerce/components/product"
-            color="El Gordo Red"
+            color="red"
             identifier="meskwielt.3"
             textIsRich="[true,true]">
             <image

@@ -36,7 +36,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Sonja Insulated Jacket Green"
             sling:resourceType="commerce/components/product"
-            color="Sonja Green"
+            color="darkgreen"
             identifier="wootwisot.1"
             textIsRich="[true,true]">
             <image
@@ -82,7 +82,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Sonja Insulated Jacket Purple"
             sling:resourceType="commerce/components/product"
-            color="Sonja Purple"
+            color="purple"
             identifier="wootwisot.2"
             textIsRich="[true,true]">
             <image

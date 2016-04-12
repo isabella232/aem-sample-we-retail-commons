@@ -253,7 +253,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Pipeline Board Shorts Orange"
             sling:resourceType="commerce/components/product"
-            color="Pipeline Orange"
+            color="orange"
             identifier="mesusupis.1"
             textIsRich="[true,true]">
             <image
@@ -299,7 +299,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Pipeline Board Shorts Blue"
             sling:resourceType="commerce/components/product"
-            color="Pipeline Blue"
+            color="blue"
             identifier="mesusupis.2"
             textIsRich="[true,true]">
             <image
@@ -345,7 +345,7 @@
             jcr:primaryType="nt:unstructured"
             jcr:title="Pipeline Board Shorts Red"
             sling:resourceType="commerce/components/product"
-            color="Pipeline Red"
+            color="red"
             identifier="mesusupis.3"
             textIsRich="[true,true]">
             <image
