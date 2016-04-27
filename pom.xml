@@ -341,12 +341,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
 
-            <properties>
-                <releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
-                <releaseRepository-Name>Adobe Public Releases</releaseRepository-Name>
-                <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
-            </properties>
-
             <repositories>
                 <repository>
                     <id>adobe-public-releases</id>
@@ -493,4 +487,11 @@
         </dependencies>
     </dependencyManagement>
 
+	<distributionManagement>
+	    <repository>
+	        <id>bintray</id>
+	        <name>adobe-marketing-cloud-aem-samples</name>
+	        <url>https://api.bintray.com/maven/adobe-marketing-cloud/aem-samples/we.retail.commons/;publish=1</url>
+	    </repository>
+	</distributionManagement>
 </project>
