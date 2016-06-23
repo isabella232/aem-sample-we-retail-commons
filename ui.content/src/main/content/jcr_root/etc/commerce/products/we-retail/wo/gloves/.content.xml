@@ -24,6 +24,6 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/gloves/90019930.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/gloves/90019930.jpg"/>
     </gloves>
 </jcr:root>

@@ -24,7 +24,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/pants/116138647.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/pants/116138647.jpg"/>
     </faba_running_pants>
     <hiking_pants
         cq:commerceType="product"
@@ -46,6 +46,6 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/pants/331050524.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/pants/331050524.jpg"/>
     </hiking_pants>
 </jcr:root>

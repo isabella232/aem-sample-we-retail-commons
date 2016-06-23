@@ -29,7 +29,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/pants/Trail.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/pants/Trail.jpg"/>
         <size-xs
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.353-07:00"
@@ -85,7 +85,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/pants/Analog.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/pants/Analog.jpg"/>
         <size-28
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.362-07:00"
@@ -165,7 +165,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/pants/Tribeca.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/pants/Tribeca.jpg"/>
         <size-s
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.392-07:00"

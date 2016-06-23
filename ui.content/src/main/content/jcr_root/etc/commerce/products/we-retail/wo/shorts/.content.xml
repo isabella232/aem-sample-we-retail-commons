@@ -29,7 +29,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/shorts/Candide.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/shorts/Candide.jpg"/>
         <size-xxs
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.419-07:00"
@@ -91,7 +91,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/shorts/Desert Sky.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/shorts/Desert Sky.jpg"/>
         <size-0
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.422-07:00"
@@ -153,7 +153,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/shorts/Fleet Fox.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/shorts/Fleet Fox.jpg"/>
         <size-xs
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.424-07:00"
@@ -209,7 +209,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/shorts/Bahamas.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/shorts/Bahamas.jpg"/>
         <size-xs
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.486-07:00"

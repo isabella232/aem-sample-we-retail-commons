@@ -59,7 +59,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="dam/components/scene7/dynamicmediaimage"
-        fileReference="/content/dam/we-retail/products/apparel/footwear/sussex"
+        fileReference="/content/dam/we-retail/en/products/apparel/footwear/sussex"
         height="300"
         jpegQuality="85"
         unsharpMaskAmount="0"

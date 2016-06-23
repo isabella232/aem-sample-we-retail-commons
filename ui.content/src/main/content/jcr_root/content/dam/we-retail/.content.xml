@@ -4,15 +4,5 @@
     jcr:lastModifiedBy="admin"
     jcr:mixinTypes="[mix:lockable]"
     jcr:primaryType="sling:OrderedFolder">
-    <jcr:content
-        jcr:primaryType="nt:unstructured"
-        jcr:title="We.Retail">
-        <folderThumbnail/>
-    </jcr:content>
-    <activities/>
-    <people/>
-    <products/>
-    <videos/>
-    <workflow/>
-    <experiences/>
+    <en/>
 </jcr:root>

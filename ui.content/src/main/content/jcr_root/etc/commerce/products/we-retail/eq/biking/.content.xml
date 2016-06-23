@@ -29,7 +29,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/activities/biking/Blast.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/activities/biking/Blast.jpg"/>
     </eqbisublp>
     <eqbisucol
         cq:commerceType="product"
@@ -54,7 +54,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/products/activities/biking/chain_tool"
+            fileReference="/content/dam/we-retail/en/products/activities/biking/chain_tool"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
@@ -86,7 +86,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/gloves/Comfort Gel.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/gloves/Comfort Gel.jpg"/>
         <size-s
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.286-07:00"
@@ -130,7 +130,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="commerce/components/product/image"
-            fileReference="/content/dam/we-retail/products/apparel/footwear/Marin.jpg"/>
+            fileReference="/content/dam/we-retail/en/products/apparel/footwear/Marin.jpg"/>
         <size-7
             cq:commerceType="variant"
             jcr:lastModified="{Date}2015-09-08T17:10:12.287-07:00"
@@ -198,7 +198,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/products/activities/biking/mx121"
+            fileReference="/content/dam/we-retail/en/products/activities/biking/mx121"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
@@ -254,7 +254,7 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/products/activities/biking/sequoia"
+            fileReference="/content/dam/we-retail/en/products/activities/biking/sequoia"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
