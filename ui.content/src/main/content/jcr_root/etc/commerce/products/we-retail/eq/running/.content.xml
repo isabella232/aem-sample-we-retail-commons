@@ -3,15 +3,12 @@
     cq:importCount="{Long}3"
     jcr:primaryType="sling:Folder"
     jcr:title="Running">
-    <jcr:content jcr:primaryType="nt:unstructured">
-        <folderThumbnail/>
-    </jcr:content>
+    <jcr:content jcr:primaryType="nt:unstructured"/>
     <basa_mp3_player
         cq:commerceType="product"
         cq:tags="[we-retail:equipment,we-retail:activity/running]"
         jcr:created="{Date}2016-01-13T21:29:47.993-08:00"
         jcr:description="equipment"
-        summary="Carries up to 20,000 of your favorite tunes! Also features built in timer and workout monitor to track your energy and calories. "
         jcr:lastModified="{Date}2016-01-16T16:52:53.181-05:00"
         jcr:mixinTypes="[cq:Taggable]"
         jcr:primaryType="nt:unstructured"
@@ -20,6 +17,7 @@
         identifier="30941863"
         price="{Decimal}149.99"
         size="one"
+        summary="Carries up to 20,000 of your favorite tunes! Also features built in timer and workout monitor to track your energy and calories. "
         textIsRich="[true,true]">
         <image
             jcr:lastModified="{Date}2016-01-16T16:52:53.159-05:00"
@@ -50,8 +48,8 @@
             jcr:lastModified="{Date}2016-01-11T16:29:35.160-08:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/en/products/activities/running/watter_bottle"
+            sling:resourceType="commerce/components/product/image"
+            fileReference="/content/dam/we-retail/en/products/activities/running/gomobile-source/Water Bottle.jpg"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
@@ -100,8 +98,8 @@
             jcr:lastModified="{Date}2016-01-11T16:30:42.769-08:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/en/products/apparel/footwear/fleet"
+            sling:resourceType="commerce/components/product/image"
+            fileReference="/content/dam/we-retail/en/products/apparel/footwear/source/Fleet Shoe.jpg"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"
@@ -131,8 +129,8 @@
             jcr:lastModified="{Date}2016-01-12T14:55:35.984-08:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="dam/components/scene7/dynamicmediaimage"
-            fileReference="/content/dam/we-retail/en/products/activities/running/gomobile"
+            sling:resourceType="commerce/components/product/image"
+            fileReference="/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile.jpg"
             height="300"
             jpegQuality="85"
             unsharpMaskAmount="0"

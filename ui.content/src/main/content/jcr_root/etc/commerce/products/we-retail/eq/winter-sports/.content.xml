@@ -3,9 +3,7 @@
     cq:importCount="{Long}6"
     jcr:primaryType="sling:Folder"
     jcr:title="Winter Sports">
-    <jcr:content jcr:primaryType="nt:unstructured">
-        <folderThumbnail/>
-    </jcr:content>
+    <jcr:content jcr:primaryType="nt:unstructured"/>
     <eqwrsnbd
         cq:commerceType="product"
         cq:productVariantAxes="[size]"
