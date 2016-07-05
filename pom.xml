@@ -486,12 +486,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <distributionManagement>
-        <repository>
-            <id>bintray</id>
-            <name>adobe-marketing-cloud-aem-samples</name>
-            <url>https://api.bintray.com/maven/adobe-marketing-cloud/aem-samples/we.retail.commons/;publish=1</url>
-        </repository>
-    </distributionManagement>
 </project>
