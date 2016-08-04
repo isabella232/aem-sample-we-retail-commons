@@ -4,7 +4,7 @@
 SlingDelete,/content/we-retail/community,,,,,,,,
 # Creating privileged member group for We.Retail,,,,,,,,,
 SlingPost,/libs/granite/security/post/authorizables.html,authorizableId,weretail-privileged-members,./profile/givenName,WeRetail Privileged Members,aboutMe,Privileged Members for WeRetail Communities Site,createGroup,1
-GroupMembers,weretail-privileged-members,addMembers,aaron.mcdonald@mailinator.com,,,,,,
+GroupMembers,weretail-privileged-members,addMembers,emily.andrews@mailinator.com,,,,,,
 # Blackcomb Gloves Women,,,,,,,,,
 Reviews,/etc/commerce/products/we-retail/eq/eqwn/eqwnbc/jcr:content/reviews.social.json,,,,,,,,
 aaron.mcdonald@mailinator.com,0,This is a great coat,Overall;4;,/content/we-retail/language-masters/en/products/equipment/skiing/blackcomb-snow/jcr:content/root/responsivegrid/reviews,we-retail/components/hbs/reviews,,,,
