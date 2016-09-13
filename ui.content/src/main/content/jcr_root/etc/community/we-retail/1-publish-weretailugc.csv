@@ -13,7 +13,7 @@ Users,aaron.mcdonald@mailinator.com,Profile,aboutMe,I'm a Community Manager,lang
 Users,emily.andrews@mailinator.com,Profile,aboutMe,I'm a Community Privileged Member,language,en,city,San Francisco,region,CA,streetAddress,11 Pacific Highway,url,http://www.geometrixx.com,occupation,Employee
 Users,felicia.carter@trashymail.com,Profile,aboutMe,I'm a Community Member,language,fr,city,Toronto,region,ON,streetAddress,11 Pacific Highway,url,http://www.geometrixx.com,occupation,Employee
 # Blackcomb Gloves Women,,,,,,,,,,,,,,,,
-Reviews,/etc/commerce/products/we-retail/eq/eqwn/eqwnbc/jcr:content/reviews.social.json,,,,,,,,,,,,,,,
+Reviews,/etc/commerce/products/we-retail/me/coats/meskwielt/jcr:content/reviews.social.json,,,,,,,,,,,,,,,
 aaron.mcdonald@mailinator.com,0,This is a great coat,Overall;4;,/content/we-retail/language-masters/en/products/equipment/skiing/blackcomb-snow/jcr:content/root/responsivegrid/reviews,we-retail/components/hbs/reviews,,,,,,,,,,,
-jason.werner@dodgit.com,0,"I agree, super gloves",Overall;3;,/content/we-retail/language-masters/en/products/equipment/skiing/blackcomb-snow/jcr:content/root/responsivegrid/reviews,we-retail/components/hbs/reviews,,,,,,,,,,,
+jason.werner@dodgit.com,0,"I agree, super product",Overall;3;,/content/we-retail/language-masters/en/products/equipment/skiing/blackcomb-snow/jcr:content/root/responsivegrid/reviews,we-retail/components/hbs/reviews,,,,,,,,,,,
 weston.mccall@dodgit.com,0,"Super product, +1!",Overall;3;,/content/we-retail/language-masters/en/products/equipment/skiing/blackcomb-snow/jcr:content/root/responsivegrid/reviews,we-retail/components/hbs/reviews,,,,,,,,,,,
