@@ -15,7 +15,7 @@
         dam:s7damHeight="{Long}3744"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}5616"
-        jcr:lastModified="{Date}2016-04-06T19:49:58.755+02:00"
+        jcr:lastModified="{Date}2016-08-08T13:41:43.214-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -34,14 +34,14 @@
             dam:size="{Long}11202815"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-14T19:38:46.049-08:00"
-            jcr:lastModified="{Date}2016-04-06T19:49:58.568+02:00"
+            jcr:lastModified="{Date}2016-07-20T09:26:53.281-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3744"
             tiff:ImageWidth="{Long}5616"
             areAllMembersProducts="{Boolean}true"
-            imageMap="\[poly(822,537,832,537,832,527,822,527,822,537)&quot;quickview:sku=/etc/commerce/products/we-retail/en/wo/gloves/gloves/90019930&amp;reservedVal_productPath=/etc/commerce/products/we-retail/en/wo/gloves/gloves&amp;reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/en/wo/gloves/gloves/image.thumbnail.319.png/1452980635674.png&quot;|&quot;&quot;|&quot;Hotspot 1&quot;][poly(2118,1185,2128,1185,2128,1175,2118,1175,2118,1185)&quot;quickview:sku=/etc/commerce/products/we-retail/en/eq/hiking/hiking_poles/170227049&amp;reservedVal_productPath=/etc/commerce/products/we-retail/en/eq/hiking/hiking_poles&amp;reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/en/eq/hiking/hiking_poles/assets/asset.thumbnail.319.png/1452980731881.png&quot;|&quot;&quot;|&quot;Hotspot 2&quot;][poly(1593,343,1603,343,1603,333,1593,333,1593,343)&quot;quickview:sku=woskwislt&amp;reservedVal_productPath=/etc/commerce/products/we-retail/en/wo/coats/woskwislt&amp;reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/en/wo/coats/woskwislt/image.thumbnail.319.png/1456183902729.png&quot;|&quot;&quot;|&quot;Hotspot 3&quot;][poly(1302,1827,1312,1827,1312,1817,1302,1817,1302,1827)&quot;quickview:sku=/etc/commerce/products/we-retail/en/wo/pants/hiking_pants/331050524&amp;reservedVal_productPath=/etc/commerce/products/we-retail/en/wo/pants/hiking_pants&amp;reservedVal_productThumbnail=http://localhost:4502/etc/commerce/products/we-retail/en/wo/pants/hiking_pants/image.thumbnail.319.png/1452981506225.png&quot;|&quot;&quot;|&quot;Hotspot 4&quot;]"
+            imageMap="\[poly(822,537,832,537,832,527,822,527,822,537)&quot;quickview:sku=90019930&amp;reservedVal_productPath=/etc/commerce/products/we-retail/wo/gloves/gloves&amp;reservedVal_productThumbnail=/etc/commerce/products/we-retail/wo/gloves/gloves/image.thumbnail.319.png/1469032251594.png&quot;|&quot;&quot;|&quot;Hotspot 1&quot;][poly(2118,1185,2128,1185,2128,1175,2118,1175,2118,1185)&quot;quickview:sku=170227049&amp;reservedVal_productPath=/etc/commerce/products/we-retail/eq/hiking/hiking_poles&amp;reservedVal_productThumbnail=/etc/commerce/products/we-retail/eq/hiking/hiking_poles/assets/asset.thumbnail.319.png/1469032135684.png&quot;|&quot;&quot;|&quot;Hotspot 2&quot;][poly(1593,343,1603,343,1603,333,1593,333,1593,343)&quot;quickview:sku=woskwislt&amp;reservedVal_productPath=/etc/commerce/products/we-retail/wo/coats/woskwislt&amp;reservedVal_productThumbnail=/etc/commerce/products/we-retail/wo/coats/woskwislt/image.thumbnail.319.png/1469032225912.png&quot;|&quot;&quot;|&quot;Hotspot 3&quot;][poly(1302,1827,1312,1827,1312,1817,1302,1817,1302,1827)&quot;quickview:sku=331050524&amp;reservedVal_productPath=/etc/commerce/products/we-retail/wo/pants/hiking_pants&amp;reservedVal_productThumbnail=/etc/commerce/products/we-retail/wo/pants/hiking_pants/image.thumbnail.319.png/1469032261503.png&quot;|&quot;&quot;|&quot;Hotspot 4&quot;]"
             writebackEnable="{Boolean}true"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
