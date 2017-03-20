@@ -28,7 +28,7 @@
      * Prices
      */
     $.validator.register({
-        selector: "form [data-validation='geometrixx.price']",
+        selector: "form [data-validation='weretail.price']",
         validate: function(el) {
             var v = el.val();
 
@@ -42,12 +42,12 @@
      * Geometrixx-Outdoors SKUs
      */
     $.validator.register({
-        selector: "form [data-validation='geometrixx.sku']",
+        selector: "form [data-validation='weretail.sku']",
         validate: function(el) {
             var v = el.val();
 
             if (v.length < 6) {
-                return Granite.I18n.get("Geometrixx Outdoors SKUs must be at least 6 characters.");
+                return Granite.I18n.get("We.Retail SKUs must be at least 6 characters.");
             }
         }
     });
@@ -56,12 +56,12 @@
      * Geometrixx-Outdoors Currencies
      */
     $.validator.register({
-        selector: "form [data-validation='geometrixx.currencyCode']",
+        selector: "form [data-validation='weretail.currencyCode']",
         validate: function(el) {
             var v = el.val();
 
             if (!v.match(/^(USD)|(EUR)|(GBP)|(CHF)|(JPY)$/)) {
-                return Granite.I18n.get("Geometrixx Outdoors supports only USD, EUR, GBP, CHF and JPY")
+                return Granite.I18n.get("We.Retail supports only USD, EUR, GBP, CHF and JPY")
             }
         }
     })

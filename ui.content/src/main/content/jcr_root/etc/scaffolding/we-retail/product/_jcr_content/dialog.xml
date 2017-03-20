@@ -64,6 +64,16 @@
                     name="./price@TypeHint"
                     value="Decimal"
                     xtype="hidden"/>
+                <lastModified
+                    jcr:primaryType="cq:Widget"
+                    name="./jcr:lastModified"
+                    xtype="hidden"/>
+                <lastModified-typehint
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./lastModified@TypeHint"
+                    value="Date"
+                    xtype="hidden"/>
             </items>
         </erp-data>
         <product-tabs

@@ -39,6 +39,6 @@ jQuery(function ($) {
         return value.length == 0 || value.length >= 6;
     };
 
-    CQ.Ext.form.VTypes.skuText = CQ.I18n.getMessage("Geometrixx Outdoors SKUs must be at least 6 characters.");
+    CQ.Ext.form.VTypes.skuText = CQ.I18n.getMessage("We.Retail SKUs must be at least 6 characters.");
 
 })(document, Granite.$, Granite);

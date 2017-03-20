@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:targetPath="/etc/commerce/products/we-retail"
@@ -13,19 +13,15 @@
             sling:resourceType="cq/gui/components/authoring/dialog">
             <content
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="granite/ui/components/foundation/container">
+                sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
                     <columns
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/foundation/container">
-                        <layout
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
-                            margin="{Boolean}false"/>
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                         <items jcr:primaryType="nt:unstructured">
                             <column1
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/container">
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
                                     <images
                                         jcr:primaryType="nt:unstructured"
@@ -39,10 +35,11 @@
                                                 sling:resourceType="commerce/gui/components/admin/products/properties/productthumbnail"
                                                 class="cq-ProductThumbnail">
                                                 <assetcategory
+                                                    cq:showOnCreate="{Boolean}true"
                                                     jcr:primaryType="nt:unstructured"
-                                                    sling:resourceType="cq/gui/components/common/tagspicker"
-                                                    allowCreate="{Boolean}true"
+                                                    sling:resourceType="cq/gui/components/coral/common/form/tagfield"
                                                     fieldLabel="Asset Category"
+                                                    multiple="true"
                                                     name="./${imageRelPath}/assetCategory"
                                                     rel="cq-commerce-product-image-category"
                                                     renderReadOnly="{Boolean}true"/>
@@ -54,19 +51,19 @@
                                                     previewTarget=".cq-ProductThumbnail"
                                                     renderReadOnly="{Boolean}true"/>
                                                 <remove
+                                                    granite:class="button remove-image-button"
                                                     jcr:primaryType="nt:unstructured"
-                                                    sling:resourceType="granite/ui/components/foundation/form/submit"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/button"
                                                     align="right"
-                                                    class="button remove-image-button"
                                                     text="Remove"
                                                     type="image"/>
                                             </thumbnail>
                                         </image>
                                         <addimage
+                                            granite:class="button add-image-button"
                                             jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/foundation/form/submit"
+                                            sling:resourceType="granite/ui/components/coral/foundation/button"
                                             align="right"
-                                            class="button add-image-button"
                                             text="Add Asset"
                                             type="image"/>
                                     </images>
@@ -74,53 +71,53 @@
                             </column1>
                             <column2
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/container">
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
                                     <tabs
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/foundation/container">
-                                        <layout
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
-                                            type="nav"/>
+                                        sling:resourceType="granite/ui/components/coral/foundation/tabs">
                                         <items jcr:primaryType="nt:unstructured">
                                             <basic
                                                 jcr:primaryType="nt:unstructured"
                                                 jcr:title="Basic"
-                                                sling:resourceType="granite/ui/components/foundation/section">
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
                                                 <items jcr:primaryType="nt:unstructured">
                                                     <titles
                                                         jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="granite/ui/components/foundation/form/fieldset">
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
                                                         <items jcr:primaryType="nt:unstructured">
                                                             <title
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textfield"
-                                                                fieldLabel="Title *"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                fieldLabel="Title"
                                                                 name="./jcr:title"
                                                                 renderReadOnly="{Boolean}true"
                                                                 required="{Boolean}true"/>
                                                             <description
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textarea"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
                                                                 fieldLabel="Description"
                                                                 name="./jcr:description"
                                                                 renderReadOnly="{Boolean}true"/>
                                                             <tags
+                                                                cq:showOnCreate="{Boolean}true"
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="cq/gui/components/common/tagspicker"
+                                                                sling:resourceType="cq/gui/components/coral/common/form/tagfield"
                                                                 fieldLabel="Tags"
+                                                                multiple="true"
                                                                 name="./cq:tags"
                                                                 renderReadOnly="{Boolean}true"/>
                                                             <product-asset-category-default
+                                                                cq:showOnCreate="{Boolean}true"
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="cq/gui/components/common/tagspicker"
+                                                                sling:resourceType="cq/gui/components/coral/common/form/tagfield"
                                                                 fieldLabel="Default Asset Category"
+                                                                multiple="true"
                                                                 name="./assetCategory"
                                                                 renderReadOnly="{Boolean}true"/>
                                                             <charset
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/hidden"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
                                                                 ignoreData="{Boolean}true"
                                                                 name="_charset_"
                                                                 value="utf-8"/>
@@ -129,41 +126,52 @@
                                                     <erp
                                                         jcr:primaryType="nt:unstructured"
                                                         jcr:title="ERP Data"
-                                                        sling:resourceType="granite/ui/components/foundation/form/fieldset">
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
                                                         <items jcr:primaryType="nt:unstructured">
                                                             <sku
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textfield"
-                                                                fieldLabel="SKU *"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                fieldLabel="SKU"
                                                                 name="./identifier"
                                                                 renderReadOnly="{Boolean}true"
                                                                 required="{Boolean}true"
-                                                                validation="geometrixx.sku"/>
+                                                                validation="weretail.sku"/>
                                                             <color
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                                 fieldLabel="Color"
                                                                 name="./color"
                                                                 renderReadOnly="{Boolean}true"/>
                                                             <size
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                                 fieldLabel="Size"
                                                                 name="./size"
                                                                 renderReadOnly="{Boolean}true"/>
                                                             <price
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                                 fieldLabel="Price"
                                                                 name="./price"
                                                                 renderReadOnly="{Boolean}true"
-                                                                validation="geometrixx.price"/>
+                                                                validation="weretail.price"/>
                                                             <price-typehint
                                                                 jcr:primaryType="nt:unstructured"
-                                                                sling:resourceType="granite/ui/components/foundation/form/hidden"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
                                                                 name="./price@TypeHint"
                                                                 renderReadOnly="{Boolean}true"
                                                                 value="Decimal"/>
+                                                            <lastModified
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                                name="./jcr:lastModified"
+                                                                renderReadOnly="{Boolean}true"/>
+                                                            <lastModified-typehint
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                                name="./jcr:lastModified@TypeHint"
+                                                                renderReadOnly="{Boolean}true"
+                                                                value="Date"/>
                                                         </items>
                                                     </erp>
                                                 </items>
@@ -171,24 +179,112 @@
                                             <product-tabs
                                                 jcr:primaryType="nt:unstructured"
                                                 jcr:title="Product Tabs"
-                                                sling:resourceType="granite/ui/components/foundation/section">
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
                                                 <items jcr:primaryType="nt:unstructured">
                                                     <clientlibs
                                                         jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="granite/ui/components/foundation/includeclientlibs"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/includeclientlibs"
                                                         categories="[cq.authoring.dialog]"/>
                                                     <summary
                                                         jcr:primaryType="nt:unstructured"
                                                         sling:resourceType="cq/gui/components/authoring/dialog/richtext"
                                                         fieldLabel="Summary"
                                                         name="./summary"
-                                                        renderReadOnly="{Boolean}true"/>
+                                                        renderReadOnly="{Boolean}true"
+                                                        useFixedInlineToolbar="{Boolean}true">
+                                                        <rtePlugins jcr:primaryType="nt:unstructured">
+                                                            <format
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <justify
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <lists
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <paraformat
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <links
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <keys
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                        </rtePlugins>
+                                                        <uiSettings jcr:primaryType="nt:unstructured">
+                                                            <cui jcr:primaryType="nt:unstructured">
+                                                                <inline
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    toolbar="[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat]">
+                                                                    <popovers jcr:primaryType="nt:unstructured">
+                                                                        <justify
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="[justify#justifyleft,justify#justifycenter,justify#justifyright]"
+                                                                            ref="justify"/>
+                                                                        <lists
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="[lists#unordered,lists#ordered,lists#outdent,lists#indent]"
+                                                                            ref="lists"/>
+                                                                        <paraformat
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="paraformat:getFormats:paraformat-pulldown"
+                                                                            ref="paraformat"/>
+                                                                    </popovers>
+                                                                </inline>
+                                                            </cui>
+                                                        </uiSettings>
+                                                    </summary>
                                                     <features
                                                         jcr:primaryType="nt:unstructured"
                                                         sling:resourceType="cq/gui/components/authoring/dialog/richtext"
                                                         fieldLabel="Features"
                                                         name="./features"
-                                                        renderReadOnly="{Boolean}true"/>
+                                                        renderReadOnly="{Boolean}true"
+                                                        useFixedInlineToolbar="{Boolean}true">
+                                                        <rtePlugins jcr:primaryType="nt:unstructured">
+                                                            <format
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <justify
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <lists
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <paraformat
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <links
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                            <keys
+                                                                jcr:primaryType="nt:unstructured"
+                                                                features="*"/>
+                                                        </rtePlugins>
+                                                        <uiSettings jcr:primaryType="nt:unstructured">
+                                                            <cui jcr:primaryType="nt:unstructured">
+                                                                <inline
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    toolbar="[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat]">
+                                                                    <popovers jcr:primaryType="nt:unstructured">
+                                                                        <justify
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="[justify#justifyleft,justify#justifycenter,justify#justifyright]"
+                                                                            ref="justify"/>
+                                                                        <lists
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="[lists#unordered,lists#ordered,lists#outdent,lists#indent]"
+                                                                            ref="lists"/>
+                                                                        <paraformat
+                                                                            jcr:primaryType="nt:unstructured"
+                                                                            items="paraformat:getFormats:paraformat-pulldown"
+                                                                            ref="paraformat"/>
+                                                                    </popovers>
+                                                                </inline>
+                                                            </cui>
+                                                        </uiSettings>
+                                                    </features>
                                                 </items>
                                             </product-tabs>
                                         </items>

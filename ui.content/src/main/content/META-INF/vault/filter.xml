@@ -6,4 +6,10 @@
     <filter root="/etc/community/we-retail"/>
     <filter root="/content/dam/we-retail"/>
     <filter root="/content/catalogs/we-retail/en/master-catalog"/>
+    <filter root="/home/users/we-retail"/>
+    <filter root="/home/groups/c/content-authors" mode="merge"/>
+    <filter root="/home/groups/d/dam-users" mode="merge"/>
+    <filter root="/home/groups/default/order-administrators" mode="merge"/>
+    <filter root="/home/groups/t/tag-administrators" mode="merge"/>
+    <filter root="/home/groups/t/target-activity-authors" mode="merge"/>
 </workspaceFilter>

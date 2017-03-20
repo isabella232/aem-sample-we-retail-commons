@@ -19,13 +19,13 @@
         dam:s7damImageCopyPath="/var/folders/6w/gt4qrfqd4f52z15ft_g74vfw0000gn/T/scene72982226364606251514.tmp"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}2000"
-        jcr:lastModified="{Date}2016-04-06T19:50:41.815+02:00"
+        jcr:lastModified="{Date}2016-09-12T17:16:53.271+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-01-08T16:29:56.793-08:00"
+            dam:extracted="{Date}2016-09-12T17:16:52.881+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -35,17 +35,17 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="881346ed694d055a22da881051c9da29fc8df801"
-            dam:size="{Long}1625095"
+            dam:sha1="4cca82213d9b77aa36202198b75c191efaf618bf"
+            dam:size="{Long}98194"
             dam:writebackEnable="False"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-01-08T16:28:58.203-08:00"
-            jcr:lastModified="{Date}2016-04-06T19:50:41.150+02:00"
+            jcr:lastModified="{Date}2016-09-12T17:16:03.406+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}2000"
-            tiff:ImageWidth="{Long}2000"
+            tiff:ImageLength="{Long}1080"
+            tiff:ImageWidth="{Long}1080"
             writebackEnable="{Boolean}true"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

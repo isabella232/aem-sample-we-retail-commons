@@ -25,7 +25,7 @@ maven-eclipse.xml
 release.properties
 
 cqdam.*
-cq5dam.*
+#cq5dam.*
 folderThumbnail
 
 ui.apps/src/main/content/jcr_root/apps/.content.xml
