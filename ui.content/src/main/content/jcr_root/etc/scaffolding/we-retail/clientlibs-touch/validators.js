@@ -39,7 +39,7 @@
     });
 
     /*
-     * Geometrixx-Outdoors SKUs
+     * We.Retail SKUs
      */
     $.validator.register({
         selector: "form [data-validation='weretail.sku']",
@@ -53,7 +53,7 @@
     });
 
     /*
-     * Geometrixx-Outdoors Currencies
+     * We.Retail Currencies
      */
     $.validator.register({
         selector: "form [data-validation='weretail.currencyCode']",

@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/geometrixx-outdoors-screens/eq/eqbi/eqbisuset"
+            cq:productReference="/etc/commerce/products/we-retail/eq/biking/eqbisuset"
             dam:productID="eqbisuset"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

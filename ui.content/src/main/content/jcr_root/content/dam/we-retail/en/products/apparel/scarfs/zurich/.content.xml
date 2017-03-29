@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/geometrixx-outdoors-screens/me/meot/meotwizuf"
+            cq:productReference="/etc/commerce/products/we-retail/me/coats/meotwizuf"
             dam:productID="meotwizuf"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

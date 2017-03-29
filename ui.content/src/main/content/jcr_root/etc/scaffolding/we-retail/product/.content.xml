@@ -9,7 +9,7 @@
         sling:resourceType="wcm/scaffolding/components/scaffolding">
         <cq:dialog
             jcr:primaryType="nt:unstructured"
-            jcr:title="Geometrixx Outdoors Product Properties"
+            jcr:title="We.Retail Product Properties"
             sling:resourceType="cq/gui/components/authoring/dialog">
             <content
                 jcr:primaryType="nt:unstructured"

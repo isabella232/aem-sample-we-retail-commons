@@ -19,7 +19,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/geometrixx-outdoors-screens/me/mehi/mehisusts"
+            cq:productReference="/etc/commerce/products/we-retail/me/shorts/mehisusts"
             dam:Bitsperpixel="{Long}24"
             dam:extracted="{Date}2016-09-12T17:17:13.326+05:30"
             dam:Fileformat="JPEG"

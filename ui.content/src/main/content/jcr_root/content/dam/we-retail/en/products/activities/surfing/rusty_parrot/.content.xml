@@ -9,7 +9,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/geometrixx-outdoors-screens/eq/eqsu/eqsusurud"
+            cq:productReference="/etc/commerce/products/we-retail/eq/surfing/eqsusurud"
             dam:productID="eqsusurud"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

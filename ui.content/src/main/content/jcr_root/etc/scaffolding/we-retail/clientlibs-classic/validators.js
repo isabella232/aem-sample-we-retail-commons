@@ -33,7 +33,7 @@ jQuery(function ($) {
     CQ.Ext.form.VTypes.priceMask = /[\d\.]/;
 
     /*
-     * Geometrixx-Outdoors SKUs
+     * We.Retail SKUs
      */
     CQ.Ext.form.VTypes.sku = function(value, field) {
         return value.length == 0 || value.length >= 6;
