@@ -15,7 +15,7 @@
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/we-retail/en/eq/hiking/eqsmcz/eqsmcz.2"
+            cq:productReference="/var/commerce/products/we-retail/en/eq/hiking/eqsmcz/eqsmcz.2"
             dam:productID="eqsmcz.2"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

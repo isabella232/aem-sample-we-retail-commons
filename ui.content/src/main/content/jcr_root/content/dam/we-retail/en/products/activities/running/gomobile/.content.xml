@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/we-retail/en/eq/running/eqrusugor"
+            cq:productReference="/var/commerce/products/we-retail/en/eq/running/eqrusugor"
             dam:productID="eqrusugor"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

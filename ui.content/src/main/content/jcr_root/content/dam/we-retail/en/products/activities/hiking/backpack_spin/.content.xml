@@ -16,7 +16,7 @@
         jcr:primaryType="dam:AssetContent"
         rowRelations="[spinset-row0]">
         <metadata
-            cq:productReference="/etc/commerce/products/we-retail/en/eq/hiking/eqsmcz"
+            cq:productReference="/var/commerce/products/we-retail/en/eq/hiking/eqsmcz"
             dam:productID="eqsmcz"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-SpinSet"

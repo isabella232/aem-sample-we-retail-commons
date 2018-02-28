@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="62f31117-7a8f-4756-8393-db0b3c82d0f6">
+    jcr:uuid="24be0df2-92ae-4cd5-91f2-ca5a7fbf3dff">
     <jcr:content
-        cq:name="northern-lights.jpg"
-        cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg"
-        jcr:lastModified="{Date}2016-09-12T17:16:21.758+05:30"
+        jcr:lastModified="{Date}2018-02-08T17:45:59.672+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -123,7 +121,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:16:12.504+05:30"
+            dam:extracted="{Date}2018-02-08T17:45:56.521+01:00"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1,600"
@@ -136,10 +134,10 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="a78fb8d368536e65de06e693404acfb20dde42ab"
+            dam:sha1="1f27eb0d6cfa5b9f7aee2203f9d0da07613b4d2a"
             dam:size="{Long}178774"
             dam:TimeCreated="224437+0200"
-            dc:date="[20151002]"
+            dc:date="{Long}[20151002]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -148,12 +146,9 @@
             exif:ApertureValue="3356144/1000000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeDigitized="{Date}2015-10-02T22:44:37.000+02:00"
-            exif:DateTimeOriginal="{Date}2015-10-02T22:44:37.000+05:30"
-            exif:ExifOffset="{Long}312"
+            exif:DateTimeOriginal="{Date}2015-10-02T22:44:37.000+02:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="0/1"
-            exif:ExposureCompensation="{Long}0"
             exif:ExposureMode="{Long}1"
             exif:ExposureProgram="{Long}1"
             exif:ExposureTime="30/1"
@@ -162,7 +157,7 @@
             exif:FocalPlaneResolutionUnit="{Long}3"
             exif:FocalPlaneXResolution="52428800/32768"
             exif:FocalPlaneYResolution="52428800/32768"
-            exif:ISOSpeedRatings="[1600]"
+            exif:ISOSpeedRatings="{Long}[1600]"
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exif:MaxApertureValue="3/1"
             exif:MeteringMode="{Long}5"
@@ -179,8 +174,6 @@
             exifEX:PhotographicSensitivity="{Long}1600"
             exifEX:RecommendedExposureIndex="{Long}1600"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2016-09-12T17:16:21.618+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Northern Lights"
@@ -197,7 +190,7 @@
             psAux:LensInfo="16/1 35/1 0/0 0/0"
             psAux:LensSerialNumber="00008222f0"
             psAux:SerialNumber="198029002276"
-            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}1"
             tiff:ImageLength="{Long}1080"
@@ -344,14 +337,5 @@
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[asset]">
-            <asset
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2016-03-12T15:34:03.230+01:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

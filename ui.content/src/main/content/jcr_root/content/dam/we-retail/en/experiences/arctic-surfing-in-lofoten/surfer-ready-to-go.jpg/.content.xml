@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="7d85c3c3-16f0-4560-947c-1e0736fca6b5">
+    jcr:uuid="cad3f787-cd82-4e2d-b09f-bc99b1318079">
     <jcr:content
-        cq:name="surfer-ready-to-go.jpg"
-        cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-ready-to-go.jpg"
-        jcr:lastModified="{Date}2016-09-12T17:16:42.152+05:30"
+        jcr:lastModified="{Date}2018-02-08T17:45:53.312+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -123,7 +121,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}27"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:16:26.652+05:30"
+            dam:extracted="{Date}2018-02-08T17:45:51.588+01:00"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1 600"
@@ -136,11 +134,11 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}5.400000095367432"
             dam:Progressive="no"
-            dam:sha1="eca8cd519b7ccab0ac600db1cc4888bf31940ebb"
+            dam:sha1="873f48a1cae2a596171172627d95e9563d03b645"
             dam:size="{Long}160123"
             dam:SubSecTime="{Long}0"
             dam:TimeCreated="133357+0200"
-            dc:date="[20150929]"
+            dc:date="{Long}[20150929]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -149,12 +147,9 @@
             exif:ApertureValue="4/1"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeDigitized="{Date}2015-09-29T13:33:57.000+02:00"
-            exif:DateTimeOriginal="{Date}2015-09-29T13:33:57.000+05:30"
-            exif:ExifOffset="{Long}312"
+            exif:DateTimeOriginal="{Date}2015-09-29T13:33:57.000+02:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="-2/3"
-            exif:ExposureCompensation="-2/3 (-0,667)"
             exif:ExposureMode="{Long}0"
             exif:ExposureProgram="{Long}4"
             exif:ExposureTime="1/4000"
@@ -163,7 +158,7 @@
             exif:FocalPlaneResolutionUnit="{Long}3"
             exif:FocalPlaneXResolution="52428800/32768"
             exif:FocalPlaneYResolution="52428800/32768"
-            exif:ISOSpeedRatings="[640]"
+            exif:ISOSpeedRatings="{Long}[640]"
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exif:MaxApertureValue="4/1"
             exif:MeteringMode="{Long}5"
@@ -171,8 +166,6 @@
             exif:PixelYDimension="{Long}1920"
             exif:SceneCaptureType="{Long}0"
             exif:ShutterSpeedValue="11965784/1000000"
-            exif:SubSecTimeDigitized="{Long}0"
-            exif:SubSecTimeOriginal="{Long}0"
             exif:WhiteBalance="{Long}1"
             exifEX:BodySerialNumber="{Long}198029002276"
             exifEX:LensModel="EF70-200mm f/2.8L USM +1.4x III"
@@ -182,8 +175,6 @@
             exifEX:PhotographicSensitivity="{Long}640"
             exifEX:RecommendedExposureIndex="{Long}640"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2016-09-12T17:16:41.980+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Surfer Ready To Go"
@@ -200,7 +191,7 @@
             psAux:LensInfo="98/1 280/1 0/0 0/0"
             psAux:LensSerialNumber="{Long}0"
             psAux:SerialNumber="198029002276"
-            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}1"
             tiff:ImageLength="{Long}1080"
@@ -299,14 +290,5 @@
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[asset]">
-            <asset
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2016-03-12T15:34:03.230+01:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

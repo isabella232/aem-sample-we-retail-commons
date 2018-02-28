@@ -61,7 +61,7 @@
             xmpMM:DocumentID="adobe:docid:photoshop:502384fa-fb80-1178-9b17-8a9c853140bd"
             xmpMM:InstanceID="xmp.iid:60ac5de9-bfff-4e3a-9d65-60079ddb3a8d"
             xmpMM:OriginalDocumentID="B4F960C904A80A365F4DF7AA02B1E5C3"
-            imageMap="\[poly(1102,778,1112,778,1112,768,1102,768,1102,778)&quot;quickview:sku=/etc/commerce/products/we-retail/en/eq/surfing/eqsusuthd/eqsusuthd&amp;reservedVal_productPath=/etc/commerce/products/we-retail/en/eq/surfing/eqsusuthd&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/activities/surfing/source/stretch_top.png&quot;|&quot;&quot;|&quot;Surfboard&quot;]"
+            imageMap="\[poly(1102,778,1112,778,1112,768,1102,768,1102,778)&quot;quickview:sku=/var/commerce/products/we-retail/en/eq/surfing/eqsusuthd/eqsusuthd&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/surfing/eqsusuthd&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/activities/surfing/source/stretch_top.png&quot;|&quot;&quot;|&quot;Surfboard&quot;]"
             writebackEnable="{Boolean}true">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"

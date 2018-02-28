@@ -8,7 +8,7 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/etc/commerce/products/we-retail/eq/water-sports/eqswsucal"
+            cq:productReference="/var/commerce/products/we-retail/eq/water-sports/eqswsucal"
             dam:productID="eqswsucal"
             dc:description=""
             dc:format="Multipart/Related; type=application/x-ImageSet"

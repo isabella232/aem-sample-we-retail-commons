@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="aa4195dc-4f26-43c4-ba62-fd212f8da5e8">
+    jcr:uuid="ca3b09b3-1124-496e-b10d-5922affbfdfb">
     <jcr:content
-        cq:name="fjord-waves.jpg"
-        cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"
-        jcr:lastModified="{Date}2016-09-12T17:16:07.517+05:30"
+        jcr:lastModified="{Date}2018-02-08T17:45:55.813+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -123,7 +121,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}14"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:16:06.470+05:30"
+            dam:extracted="{Date}2018-02-08T17:45:54.517+01:00"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1 600"
@@ -140,7 +138,7 @@
             dam:size="{Long}215673"
             dam:SubSecTime="{Long}0"
             dam:TimeCreated="140859+0200"
-            dc:date="[20150929]"
+            dc:date="{Long}[20150929]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -149,12 +147,9 @@
             exif:ApertureValue="6643856/1000000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeDigitized="{Date}2015-09-29T14:08:59.000+02:00"
-            exif:DateTimeOriginal="{Date}2015-09-29T14:08:59.000+05:30"
-            exif:ExifOffset="{Long}312"
+            exif:DateTimeOriginal="{Date}2015-09-29T14:08:59.000+02:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="-2/3"
-            exif:ExposureCompensation="-2/3 (-0,667)"
             exif:ExposureMode="{Long}0"
             exif:ExposureProgram="{Long}4"
             exif:ExposureTime="1/1000"
@@ -163,7 +158,7 @@
             exif:FocalPlaneResolutionUnit="{Long}3"
             exif:FocalPlaneXResolution="52428800/32768"
             exif:FocalPlaneYResolution="52428800/32768"
-            exif:ISOSpeedRatings="[800]"
+            exif:ISOSpeedRatings="{Long}[800]"
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exif:MaxApertureValue="4/1"
             exif:MeteringMode="{Long}5"
@@ -171,8 +166,6 @@
             exif:PixelYDimension="{Long}1920"
             exif:SceneCaptureType="{Long}0"
             exif:ShutterSpeedValue="9965784/1000000"
-            exif:SubSecTimeDigitized="{Long}0"
-            exif:SubSecTimeOriginal="{Long}0"
             exif:WhiteBalance="{Long}1"
             exifEX:BodySerialNumber="{Long}198029002276"
             exifEX:LensModel="EF70-200mm f/2.8L USM +1.4x III"
@@ -182,8 +175,6 @@
             exifEX:PhotographicSensitivity="{Long}800"
             exifEX:RecommendedExposureIndex="{Long}800"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2016-09-12T17:15:56.645+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Fjord Waves"
@@ -200,7 +191,7 @@
             psAux:LensInfo="98/1 280/1 0/0 0/0"
             psAux:LensSerialNumber="{Long}0"
             psAux:SerialNumber="198029002276"
-            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}1"
             tiff:ImageLength="{Long}1080"
@@ -299,14 +290,5 @@
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[asset]">
-            <asset
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2016-03-12T15:34:03.230+01:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

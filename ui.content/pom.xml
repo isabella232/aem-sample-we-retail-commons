@@ -133,6 +133,11 @@
                             <name>cq-dam-content</name>
                             <version>[2.3.0,)</version>
                         </dependency>
+                        <dependency>
+                            <group>day/cq560/social/commons</group>
+                            <name>cq-social-commons-pkg</name>
+                            <version>[1.7.0,)</version>
+                        </dependency>
                     </dependencies>
                 </configuration>
             </plugin>

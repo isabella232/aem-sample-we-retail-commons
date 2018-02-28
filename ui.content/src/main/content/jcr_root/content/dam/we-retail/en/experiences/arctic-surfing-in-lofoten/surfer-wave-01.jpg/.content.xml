@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="6ea2ad81-e997-4ec0-b2a7-62022302c07d">
+    jcr:uuid="a052b0ad-4a40-4e30-8b5e-bae9f80ba19a">
     <jcr:content
-        cq:name="surfer-wave-01.jpg"
-        cq:parentPath="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten"
+        dam:assetState="processed"
         dam:relativePath="we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-01.jpg"
-        jcr:lastModified="{Date}2016-09-12T17:16:52.131+05:30"
+        jcr:lastModified="{Date}2018-02-08T17:45:56.405+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -132,7 +130,7 @@
             crs:WhiteBalance="As Shot"
             crs:Whites2012="{Long}15"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2016-09-12T17:16:51.037+05:30"
+            dam:extracted="{Date}2018-02-08T17:45:54.643+01:00"
             dam:Fileformat="JPEG"
             dam:FocalPlaneResolutionUnit="{Long}3"
             dam:FocalPlaneXResolution="1 600"
@@ -148,7 +146,7 @@
             dam:sha1="e2198ac9e563e27f9c2339164704f6f8c2dca116"
             dam:size="{Long}171580"
             dam:TimeCreated="141614+0200"
-            dc:date="[20150929]"
+            dc:date="{Long}[20150929]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:description="Arctic Surfing in Lofoten, Northern Norway, Europe"
             dc:format="image/jpeg"
@@ -157,12 +155,9 @@
             exif:ApertureValue="633985/100000"
             exif:ColorSpace="{Long}65535"
             exif:CustomRendered="{Long}0"
-            exif:DateTimeDigitized="{Date}2015-09-29T14:16:14.000+02:00"
-            exif:DateTimeOriginal="{Date}2015-09-29T14:16:14.000+05:30"
-            exif:ExifOffset="{Long}312"
+            exif:DateTimeOriginal="{Date}2015-09-29T14:16:14.000+02:00"
             exif:ExifVersion="0230"
             exif:ExposureBiasValue="-2/3"
-            exif:ExposureCompensation="-2/3 (-0,667)"
             exif:ExposureMode="{Long}0"
             exif:ExposureProgram="{Long}4"
             exif:ExposureTime="1/1000"
@@ -171,7 +166,7 @@
             exif:FocalPlaneResolutionUnit="{Long}3"
             exif:FocalPlaneXResolution="52428800/32768"
             exif:FocalPlaneYResolution="52428800/32768"
-            exif:ISOSpeedRatings="[800]"
+            exif:ISOSpeedRatings="{Long}[800]"
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exif:MaxApertureValue="4/1"
             exif:MeteringMode="{Long}5"
@@ -188,8 +183,6 @@
             exifEX:PhotographicSensitivity="{Long}800"
             exifEX:RecommendedExposureIndex="{Long}800"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2016-09-12T17:16:31.666+05:30"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             jcr:title="Surfer Wave 01"
@@ -206,7 +199,7 @@
             psAux:LensInfo="98/1 280/1 0/0 0/0"
             psAux:LensSerialNumber="{Long}0"
             psAux:SerialNumber="198029002276"
-            tiff:BitsPerSample="[8,8,8]"
+            tiff:BitsPerSample="{Long}[8,8,8]"
             tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}1"
             tiff:ImageLength="{Long}1080"
@@ -329,18 +322,5 @@
             </xmpMM:History>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}2"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem,asset]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2016-03-12T15:33:08.365+01:00"/>
-            <asset
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2016-03-12T15:34:03.230+01:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>
