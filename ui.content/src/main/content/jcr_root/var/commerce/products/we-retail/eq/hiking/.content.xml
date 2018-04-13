@@ -95,7 +95,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="commerce/components/product/image"
-                    fileReference="/content/dam/nrf/170227049.jpg"/>
+                    fileReference="/content/dam/we-retail/en/products/activities/hiking/170227049.jpg"/>
             </assets>
         </hiking_poles>
     </hiking_poles>
