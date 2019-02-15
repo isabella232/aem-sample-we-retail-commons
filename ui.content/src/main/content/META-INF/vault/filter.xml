@@ -13,4 +13,5 @@
     <filter root="/home/groups/t/target-activity-authors" mode="merge"/>
     <filter root="/home/groups/e/experience-fragments-editors" mode="merge"/>
     <filter root="/var/commerce/products/we-retail"/>
+    <filter root="/conf/we-retail/settings/dam/cfm/models"/>
 </workspaceFilter>
