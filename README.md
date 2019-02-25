@@ -28,12 +28,9 @@ The project comes with the auto-public repository configured. To setup the repos
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
 
-## Releasing
+## Releases
 
-In order to release this package and distribute it to https://bintray.com/adobe-marketing-cloud/aem-samples/we.retail.commons/0.2.0, you must add the following to your Maven `settings.xml` file (`~/.m2/settings.xml`):
+Releases are available:
 
-    <server>
-        <id>bintray</id>
-        <username>BINTRAYUSERNAME</username>
-        <password>BINTRAYPASSWORD or APIKEY</password>
-    </server>
+  * On Adobe Nexus Repo: https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/cq/sample/
+  * In the Github release page of this project
